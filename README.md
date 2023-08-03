@@ -1,2 +1,2 @@
 # React
-React by Jones
+React course by Jones
