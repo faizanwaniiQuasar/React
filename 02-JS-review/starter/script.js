@@ -142,3 +142,20 @@ function getBooks() {
 function getBook(id) {
   return data.find((d) => d.id === id);
 }
+
+const arr = [2, 5, 1, 3, 9, 6, 7];
+
+// assending array
+arr.sort((a, b) => a - b); ///
+
+console.log(`asscending sort ${arr}`);
+
+//decending array
+console.log(`decending sort ${arr.reverse()}`);
+
+/// different way of decending is interchange the parameters
+const arr1 = [2, 5, 1, 3, 9, 6, 7];
+arr1.sort((a, b) => b - a);
+console.log(arr1);
+/// sort mutates the original array
+// in order to preserve the array ie do not mutate use slice() method first
