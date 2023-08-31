@@ -1,10 +1,14 @@
 import NavBar from "../component/NavBar";
+import AppNav from "../component/AppNav";
+import { Link } from "react-router-dom";
 
 function Homepage() {
   return (
     <div>
-      <h1>World wise</h1>
       <NavBar />
+      <AppNav />
+      <h1 className="test">World wise</h1>
+      <Link to="/app">Go to the App </Link>
     </div>
   );
 }
